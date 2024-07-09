@@ -25,6 +25,8 @@ ENV N8N_BASIC_AUTH_PASSWORD=$PASSWORD
 
 ENV N8N_USER_ID=root
 
+ENV N8N_LOG_LEVEL=debug
+
 RUN apk add --update graphicsmagick tzdata
 
 USER root
